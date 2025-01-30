@@ -1,0 +1,236 @@
+body {
+  background-color: #08002ee8;
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 200px;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #190f33;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p {
+  line-height: 30px;
+}
+
+.main-block {
+  background-color: white;
+  width: 1024px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #190f33;
+  font-size: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #5c48d2;
+  cursor: pointer;
+}
+
+.main-image {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+
+section {
+  background-color: white;
+  padding: 100px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.information-img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: #fcc01a solid 2px;
+  margin-right: 80px;
+}
+
+.name,
+.city {
+  color: #190f33;
+}
+
+.name {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.city {
+  font-size: 30px;
+  font-style: italic;
+}
+
+#about-me p,
+.jobs-container {
+  text-align: justify;
+}
+
+#about-me a,
+#education a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#about-me a:hover,
+#education a:hover {
+  color: #5c48d2;
+}
+
+#education,
+#jobs {
+  background-color: #eeeef7;
+}
+
+#education p {
+  text-align: center;
+}
+
+#education div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#education img {
+  height: 100px;
+  margin: 60px;
+}
+
+#diploma img {
+  height: 220px;
+  width: 850px;
+  object-fit: cover;
+}
+
+.diploma-container {
+  display: flex;
+}
+.diploma-container div {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.diploma-container li,
+.diploma-container p,
+.jobs-container li,
+.jobs-container p {
+  margin-bottom: 20px;
+}
+
+.diploma-container li,
+.jobs-container li {
+  font-weight: bold;
+}
+
+.jobs-container {
+  margin-top: 100px;
+  display: flex;
+}
+
+.jobs-container div {
+  margin: 30px;
+}
+
+.jobs-container img {
+  border: #190f33 solid 1px;
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+}
+
+#contact div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#contact img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+#contact a {
+  color: black;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #5c48d2;
+}
+
+#contact {
+  border-radius: 20px;
+}
+
+footer {
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  color: #c4c4c4;
+  line-height: 40px;
+}
+
+footer a {
+  color: #fcc01a;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
